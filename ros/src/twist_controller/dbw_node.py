@@ -77,7 +77,7 @@ class DBWNode(object):
         self.angular_vel = None
         self.throttle = self.steering = self.brake = 0
                          
-        # Start loop
+        # Trigger loop
         self.loop()
 
         
